@@ -45,3 +45,4 @@ To run the project, use demo.sh file with the following arguments:
 ```sh 
         bash demo.sh run-project-pca
 ```
+![](semweb.gif)

@@ -80,7 +80,7 @@ def main():
 		ix=np.where(topics==i)
 		plt.scatter(latent[ix,0],latent[ix,1],c=color[i])
 	
-	plt.title("TSNE")
+	plt.title("LDA")
 	plt.xlabel("Latent Semantics x[0]")
 	plt.ylabel("Latent Semantics x[1]")
 	plt.show()

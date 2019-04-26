@@ -128,9 +128,6 @@ def main():
 	for doc in medium_test:
 		total_test.append(doc)
 
-
-	print('TOTAL_TRAIN SIZE=',len(total_train))
-
 	f = open("test_dataset.pickle", "w")
 	pickle.dump(total_train,f,protocol=pickle.HIGHEST_PROTOCOL)
 	pickle.dump(total_test,f,protocol=pickle.HIGHEST_PROTOCOL)
