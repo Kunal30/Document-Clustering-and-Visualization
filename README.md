@@ -1,5 +1,8 @@
 ## Document Clustering and Visualization
 Github repo for CSE 573 project.
+
+![](semweb.gif)
+
 Contributors and Team Members: 
 Kunal Suthar
 Jay Shah 
@@ -45,4 +48,3 @@ To run the project, use demo.sh file with the following arguments:
 ```sh 
         bash demo.sh run-project-pca
 ```
-![](semweb.gif)
